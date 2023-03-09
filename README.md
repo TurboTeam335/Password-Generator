@@ -1,6 +1,6 @@
 # Password-Generator
 
-This is a simple password generator application that allows users to generate a secure password based on their selected criteria. The app will prompt the user for the length of the password, and whether or not to include lowercase, uppercase, numeric, and/or special characters. The generated password will then be displayed on the screen.
+This is a simple password generator application that allows users to generate a secure password based on their selected criteria. The app will prompt the user for the length of the password, and whether or not to include lowercase, uppercase, numbers, and/or special characters. The generated password will then be displayed on the screen.
 
 ![portfolio demo](./assets/img/Screenshot-1.png)
 ![portfolio demo](./assets/img/Screenshot-2.png)
