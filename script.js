@@ -1,5 +1,6 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
+var choice = [];
 
 /* Creating an array of characters that will be used to generate the password. */
 const upperCase = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
@@ -51,7 +52,6 @@ function generatePassword() {
   // Display generated password
   return randomPassword
 }
-var choice = [];
 
 // Write password to the #password input
 function writePassword() {
