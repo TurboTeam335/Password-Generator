@@ -1,12 +1,12 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
-var choice = [];
+var choice = '';
 
 /* Creating an array of characters that will be used to generate the password. */
-const upperCase = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
-const lowerCase = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
-const numbers = [ "0", "1", "2", "3", "4", "5", "6", "7", "8", "9",]
-const specialCharacters = [ "!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "_", "+", "-", "=", "`", "~", "/", "?", ".", ">", ",", "<", ";", ":", "'", "[", "{", "]", "}"];
+const upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+const lowerCase = "abcdefghijklmnopqrstuvwxyz"
+const numbers =  "0123456789"
+const specialCharacters =  "!@#$%^&*()_+-=`~/?.>,<;:'[{]}";
 
 function generatePassword() {
   // console.log("TEST")
@@ -32,14 +32,14 @@ function generatePassword() {
   
   
   // Lowercase, uppercase, numbers, special characters
-  if (confirm("Would you like your password to contain Uppercase letters?")){
-    choice = passwordLength.concat(upperCase);
-  } if (confirm("Would you like your password to contain Lowercase letters?")){
-    choice = passwordLength.concat(lowerCase);
-  } if (confirm("Would you like your password to contain numbers?")){
-    choice = passwordLength.concat(numbers);
-  } if (confirm("Would you like your password to contain Special Characters?")){
-    choice = passwordLength.concat(specialCharacters);
+  if (confirm("Would you like your password to contain Uppercase letters?") == true){
+    choice += upperCase;
+  } if (confirm("Would you like your password to contain Lowercase letters?") == true){
+    choice += lowerCase;
+  } if (confirm("Would you like your password to contain numbers?") == true){
+    choice += numbers;
+  } if (confirm("Would you like your password to contain Special Characters?") == true){
+    choice += specialCharacters;
   }
   // Validate the input
   var randomPassword = "";
