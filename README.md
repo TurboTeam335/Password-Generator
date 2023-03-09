@@ -6,7 +6,7 @@ This is a simple password generator application that allows users to generate a 
 ![portfolio demo](./assets/img/Screenshot-2.png)
 
 # Getting Started
-To view my password generator visit " ".  
+To view my password generator visit https://turboteam335.github.io/Password-Generator/.  
 To use the password generator, click the "Generate Password" button on the screen. You will then be prompted asking if you would like a random password. After clicking ok you be asked to select the length of your password, and whether or not to include lowercase, uppercase, numeric, and/or special characters. Once you've made your selections, click the "Generate" button to create your password. The generated password will be displayed on the screen, and you can copy and paste it as needed.
 
 # Technologies Used
